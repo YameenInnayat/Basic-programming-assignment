@@ -1,15 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    float a, b;
 
-    printf("Enter number: ");
-    scanf("%d", &num);
+    printf("Enter two numbers: ");
+    scanf("%f %f", &a, &b);
 
-    if(num % 5 == 0)
-        printf("Divisible by 5");
+    printf("Sum = %.2f\n", a + b);
+    printf("Difference = %.2f\n", a - b);
+    printf("Multiplication = %.2f\n", a * b);
+
+    if(b != 0)
+        printf("Division = %.2f\n", a / b);
     else
-        printf("Not divisible by 5");
+        printf("Division not possible (divide by zero)");
 
     return 0;
 }
