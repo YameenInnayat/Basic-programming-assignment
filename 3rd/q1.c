@@ -2,11 +2,7 @@
 // square pattern stars
 
 int main() {
-    int n, i, j;
-
-    printf("Enter size of square: ");
-    scanf("%d", &n);
-
+    int n=5, i, j;
     for(i = 1; i <= n; i++) {        
         for(j = 1; j <= n; j++) {    
             printf("* ");
