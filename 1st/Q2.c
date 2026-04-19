@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//print even numbers from 1 to 50 using for loops only
 int main() {
     int i;
 
