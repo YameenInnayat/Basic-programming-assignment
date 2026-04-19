@@ -1,7 +1,7 @@
 #include <stdio.h>
 // square of square 
 int main() {
-    int n , result=1, i ;
+    int n , result, i ;
 
     printf("Enter the number: ");
     scanf("%d", &i);
