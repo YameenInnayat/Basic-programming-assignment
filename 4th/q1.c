@@ -70,3 +70,23 @@ int main() {
 
     return 0;
 }
+
+//another way simple one
+#include <stdio.h>
+
+int main(){
+    int n=371;
+int num=n;
+int cubeSum=0;
+while(num>0)
+{
+    int lastDig = num%10;
+    cubeSum += lastDig*lastDig*lastDig;
+    num /= 10;
+}
+if (n==cubeSum)
+{ printf("%d" " is an armstrong number",n);}
+else{
+    printf(" Not an armstrong number ");}
+    return 0;
+}
